@@ -9,7 +9,7 @@ ab={	'Swaroop'	: 'swaroopch@byteofpython.info',
 	'Spammer'	: 'spammer@hotmail.com'
    }
 
-print "Swaroop's address is %s" %ab['Swaroop']
+print ("Swaroop's address is %s") %ab['Swaroop']
 
 # Adding a key/value pair
 ab['Guido']='guido@python.org'
@@ -17,10 +17,10 @@ ab['Guido']='guido@python.org'
 # Deleting a key/value pair
 del ab['Spammer']
 
-print '\nThere are %d contacts in the address-book\n' %len(ab)
+#print '\nThere are %d contacts in the address-book\n' %len(ab)
 for names,address in ab.items():
-	print 'Contact %s at %s' %(names,address)
+	#print 'Contact %s at %s' %(names,address)
 
 if 'Guido' in ab: # OR ab.has_key('Guido')
-	print "\nGuido's address is %s" %ab['Guido']
+	#print "\nGuido's address is %s" %ab['Guido']
 
