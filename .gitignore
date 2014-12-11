@@ -1,7 +1,7 @@
 *~
-*.ssh/~
+*.ssh/*
 *.jpg
 *.pyc
 *.ttf
 *.zip
-*.ropeproject/~
+*.ropeproject/*
